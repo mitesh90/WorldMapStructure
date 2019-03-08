@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5ea1ecef-5951-417d-8a30-9c9b6f011fd4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8080/UserData/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="UserDataService.wsdl" MetadataType="Wsdl" ID="63dfb4fa-c46a-4c33-a704-789025e54fa8" SourceId="1" SourceUrl="http://localhost:8080/UserData/?wsdl" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="f17948c0-75b0-4dad-b607-bcccb8d9eafb" SourceId="1" SourceUrl="http://localhost:8080/UserData/?xsd=xsd1" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="6fe95b71-48b4-484b-9928-f3d0f67dd27f" SourceId="1" SourceUrl="http://localhost:8080/UserData/?disco" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="671a2247-aa86-43b5-a2c4-a444ed96570d" SourceId="1" SourceUrl="http://localhost:8080/UserData/?xsd=xsd0" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="e2eb3d88-f29e-4f44-b641-d08577f257e2" SourceId="1" SourceUrl="http://localhost:8080/UserData/?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

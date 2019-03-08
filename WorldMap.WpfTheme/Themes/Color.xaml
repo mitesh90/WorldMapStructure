@@ -1,0 +1,340 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                    xmlns:options="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options"
+                    xmlns:resx="WpfTheme/Themes/Colors.xaml"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" mc:Ignorable="d">
+
+    <!-- from the cosmopolitan theme pack -->
+    <!-- *************COLORS START************* -->
+
+    <!-- Theme Base Colors -->
+
+    <!--ACCENT COLORS-->
+
+    <Color x:Key="HighlightColor">#FF03A3BB</Color>
+    <Color x:Key="AccentColor">#FF07B9D3</Color>
+    <!--60%-->
+    <Color x:Key="AccentColor2">#FF1FBFD7</Color>
+    <!--40%-->
+    <Color x:Key="AccentColor3">#FFBFF6FD</Color>
+    <!--20%-->
+    <Color x:Key="AccentColor4">#FFEBFFFD</Color>
+    <!--Dark-->
+    <Color x:Key="AccentColor5" >#FF09ABC4</Color>
+
+    <!-- Shell COLORS-->
+    <Color x:Key="ShellColor" >#FFC0311A</Color>
+    <Color x:Key="ShellColor1" >#FF414142</Color>
+    <Color x:Key="ShellColor2" >#FF77797B</Color>
+    <Color x:Key="FooterColor" >#FFCB0E0E</Color>
+
+    <!--BASE COLORS-->
+    <Color x:Key="BlackColor">#FF000000</Color>
+    <Color x:Key="WhiteColor">#FFFFFFFF</Color>
+    <Color x:Key="Gray1">#FF333333</Color>
+    <Color x:Key="Gray2">#FF7F7F7F</Color>
+    <Color x:Key="Gray3">#FF9D9D9D</Color>
+    <Color x:Key="Gray4">#FFA59F93</Color>
+    <Color x:Key="Gray5">#FFB9B9B9</Color>
+    <Color x:Key="Gray6">#FFCCCCCC</Color>
+    <Color x:Key="Gray7">#FFD8D8D9</Color>
+    <Color x:Key="Gray8">#FFE0E0E0</Color>
+    <Color x:Key="Gray9">#5EC9C9C9</Color>
+    <Color x:Key="Gray10">#FFF7F7F7</Color>
+    <Color x:Key="Gray11">#FFD3D3D3</Color>
+    <Color x:Key="Gray12">#FF808080</Color>
+    <Color x:Key="Gray13">#FFADADAD</Color>
+    <Color x:Key="Gray14">#FF8D8D8D</Color>
+
+    <!--OTHER COLORS-->
+    <Color x:Key="PinkColor">#FFF705FA</Color>
+    <Color x:Key="PinkColor1">#FF9D3FF7</Color>
+    <Color x:Key="RedColor">#FFFF0000</Color>
+    <Color x:Key="RedColor1">#FFEB2F2F</Color>
+    <Color x:Key="YellowColor">#FFE8E00D</Color>
+    <Color x:Key="MagentaColor">#FF00FF</Color>
+    <Color x:Key="OtherColor">#FF36444F</Color>
+    <Color x:Key="OtherColor1">#FF7C0000</Color>
+    <Color x:Key="VideoControlColor">#FF4F5962</Color>
+    <Color x:Key="OrangeColor">#FFEE680D</Color>
+    <Color x:Key="GreenColor">#FF0DE596</Color>
+    <Color x:Key="SteelBlueColor">#FF388CCB</Color>
+    <Color x:Key="SteelGreenColor">#FF34859C</Color>
+    <Color x:Key="SmokeGrayColor1">#B3C1CE</Color>
+    <Color x:Key="SmokeGrayColor2">#64727F</Color>
+    <Color x:Key="CameraFocusColor">#FFAFE1E9</Color>
+    <Color x:Key="CameraFocusLightColor">#47AFE1E9</Color>
+
+    <Color x:Key="OuterMapRegion">#FF000000</Color>
+    <Color x:Key="InnerMapRegion">#44FFFF55</Color>
+    <Color x:Key="TimeLineColor">#FF5D6A73</Color>
+    <Color x:Key="TimeLineBackgroundColor">#FF32404B</Color>
+    <Color x:Key="ScheduleTimeLineColor">#FF05F60B</Color>
+    <Color x:Key="AlarmTimeLineColor">#FFF8F706</Color>
+    <Color x:Key="MotionTimeLineColor">#FFFE0000</Color>
+    <Color x:Key="PreAlarmTimeLineColor">#FF01FFFF</Color>
+    <Color x:Key="EraseTimeLineColor">#FF32404B</Color>
+    <Color x:Key="SuccessMessageColor">#FF00853E</Color>
+    <Color x:Key="WarningMessageColor">#FFFF7A03</Color>
+
+
+
+
+
+    <!-- CORE CONTROL COLORS-->
+    <Color x:Key="ProgressIndeterminateColor1">#33878787</Color>
+    <Color x:Key="ProgressIndeterminateColor2">#33959595</Color>
+    <Color x:Key="ProgressIndeterminateColor3">#4C000000</Color>
+    <Color x:Key="ProgressIndeterminateColor4">#4C000000</Color>
+
+    <!-- TREE VIEW CONTROL COLORS-->
+
+    <Color x:Key="TreeHeaderCollapse">#364451</Color>
+    <Color x:Key="TreeHeaderExpand">#2A3740</Color>
+    <Color x:Key="TreeHeaderBorder1">#3E4C57</Color>
+    <Color x:Key="TreeHeaderBorder2">#313F4C</Color>
+    <Color x:Key="TreeBackground">#364451</Color>
+    <Color x:Key="TreeHoverBackground">#FF1D242A</Color>
+    <Color x:Key="MaroonColor">#FFBF3119</Color>
+    <Color x:Key="TransparentWhite">#00FFFFFF</Color>
+    <Color x:Key="SemiTransparentWhite">#55FFFFFF</Color>
+    <Color x:Key="ControlDisabled">#A5FFFFFF</Color>
+
+    <!-- VALIDATION -->
+
+    <Color x:Key="ControlsValidation">#FFDB000C</Color>
+    <Color x:Key="Validation1">#052A2E31</Color>
+    <Color x:Key="Validation2">#152A2E31</Color>
+    <Color x:Key="Validation3">#252A2E31</Color>
+    <Color x:Key="Validation4">#352A2E31</Color>
+    <Color x:Key="Validation5">#FFDC000C</Color>
+
+    <Color x:Key="ValidationSummary1">#FFDB000C</Color>
+    <Color x:Key="ValidationSummary2">#FFCA000C</Color>
+    <Color x:Key="ValidationSummary3">#FFFF9298</Color>
+    <Color x:Key="ValidationSummary4">#FFFDC8C8</Color>
+    <Color x:Key="ValidationSummary5">#DDD43940</Color>
+    <Color x:Key="ValidationSummaryFill1">#59F7D8DB</Color>
+    <Color x:Key="ValidationSummaryFill2">#FFF7D8DB</Color>
+
+    <!-- CONTEXT MENU -->
+    <Color x:Key="ContextBorderMenuBackground">#FF566673</Color>
+
+    <!-- TOOLTIP -->
+    <Color x:Key="ToolTipBackground">#FF2B3841</Color>
+    <Color x:Key="ErrorColor">#FFDB000C</Color>
+    <SolidColorBrush x:Key="ErrorColorBrush" Color="{StaticResource ErrorColor}"/>
+
+    <!-- CALENDAR -->
+    <Color x:Key="CalendarHeaderColor" >#FF1A88BD</Color>
+    <Color x:Key="CalendarBackColor" >#FF1276A7</Color>
+    <Color x:Key="CalendarDayNameColor" >#FF167CAD</Color>
+
+    <!-- *************BRUSHES START************* -->
+    <!--OTHER COLORS-->
+    <SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource WhiteColor}" options:Freeze="True" />
+    <SolidColorBrush x:Key="SuccessMessageColorBrush" Color="{StaticResource SuccessMessageColor}"/>
+    <SolidColorBrush x:Key="WarningMessageColorBrush" Color="{StaticResource WarningMessageColor}"/>
+
+    <!-- UNIVERSAL CONTROL BRUSHES -->
+
+    <SolidColorBrush x:Key="ControlBackgroundBrush" Color="{StaticResource WhiteColor}"/>
+    <!--<SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource WhiteColor}" />
+    <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource BlackColor}" />-->
+    <SolidColorBrush x:Key="TextBrush" Color="{StaticResource BlackColor}" />
+    <SolidColorBrush x:Key="LabelTextBrush" Color="{StaticResource BlackColor}" />
+    <SolidColorBrush x:Key="WhiteColorBrush" Color="{StaticResource WhiteColor}" />
+    <SolidColorBrush x:Key="BlackColorBrush" Color="{StaticResource BlackColor}" />
+
+
+    <SolidColorBrush x:Key="HighlightBrush" Color="{StaticResource HighlightColor}" />
+    <SolidColorBrush x:Key="DisabledWhiteBrush" Color="{StaticResource WhiteColor}" />
+
+    <SolidColorBrush x:Key="TransparentWhiteBrush" Color="{StaticResource TransparentWhite}"/>
+    <SolidColorBrush x:Key="SemiTransparentWhiteBrush" Color="{StaticResource SemiTransparentWhite}"/>
+    <SolidColorBrush x:Key="ControlsDisabledBrush" Color="{StaticResource ControlDisabled}" />
+
+    <SolidColorBrush x:Key="ShellColorBrush" Color="{StaticResource ShellColor}"/>
+    <SolidColorBrush x:Key="ShellColorBrush1" Color="{StaticResource ShellColor1}"/>
+    <SolidColorBrush x:Key="ShellColorBrush2" Color="{StaticResource ShellColor2}"/>
+    <SolidColorBrush x:Key="FooterColorBrush" Color="{StaticResource FooterColor}"/>
+
+    <SolidColorBrush x:Key="GrayBrush1" Color="{StaticResource Gray1}"/>
+    <SolidColorBrush x:Key="GrayBrush2" Color="{StaticResource Gray2}"/>
+    <SolidColorBrush x:Key="GrayBrush3" Color="{StaticResource Gray3}"/>
+    <SolidColorBrush x:Key="GrayBrush4" Color="{StaticResource Gray4}"/>
+    <SolidColorBrush x:Key="GrayBrush5" Color="{StaticResource Gray5}"/>
+    <SolidColorBrush x:Key="GrayBrush6" Color="{StaticResource Gray6}"/>
+    <SolidColorBrush x:Key="GrayBrush7" Color="{StaticResource Gray7}"/>
+    <SolidColorBrush x:Key="GrayBrush8" Color="{StaticResource Gray8}"/>
+    <SolidColorBrush x:Key="GrayBrush9" Color="{StaticResource Gray9}"/>
+    <SolidColorBrush x:Key="GrayBrush10" Color="{StaticResource Gray10}"/>
+    <SolidColorBrush x:Key="GrayBrush11" Color="{StaticResource Gray11}"/>
+    <SolidColorBrush x:Key="GrayBrush12" Color="{StaticResource Gray12}"/>
+    <SolidColorBrush x:Key="GrayBrush13" Color="{StaticResource Gray13}"/>
+    <SolidColorBrush x:Key="GrayBrush14" Color="{StaticResource Gray14}"/>
+
+    <SolidColorBrush x:Key="PinkColorBrush" Color="{StaticResource PinkColor}"/>
+    <SolidColorBrush x:Key="Pink1ColorBrush" Color="{StaticResource PinkColor1}"/>
+    <SolidColorBrush x:Key="RedColorBrush" Color="{StaticResource RedColor}"/>
+    <SolidColorBrush x:Key="RedColorBrush1" Color="{StaticResource RedColor1}"/>
+    <SolidColorBrush x:Key="OtherColorBrush" Color="{StaticResource OtherColor}"/>
+    <SolidColorBrush x:Key="OtherColorBrush1" Color="{StaticResource OtherColor1}"/>
+    <SolidColorBrush x:Key="VideoControlColorBrush" Color="{StaticResource TreeBackground}"/>
+    <SolidColorBrush x:Key="YellowColorBrush" Color="{StaticResource YellowColor}"/>
+    <SolidColorBrush x:Key="OrangeColorBrush" Color="{StaticResource OrangeColor}"/>
+    <SolidColorBrush x:Key="GreenColorBrush" Color="{StaticResource GreenColor}"/>
+    <SolidColorBrush x:Key="SteelBlueColorBrush" Color="{StaticResource SteelBlueColor}"/>
+    <SolidColorBrush x:Key="SteelGreenColorBrush" Color="{StaticResource SteelGreenColor}"/>
+    <SolidColorBrush x:Key="SmokeGrayColor1Brush" Color="{StaticResource SmokeGrayColor1}"/>
+    <SolidColorBrush x:Key="SmokeGrayColor2Brush" Color="{StaticResource SmokeGrayColor2}"/>
+
+    <SolidColorBrush x:Key="MagentaColorBrush" Color="{StaticResource MagentaColor}"/>
+
+    <SolidColorBrush x:Key="TextBoxBorderBrush" Color="{StaticResource Gray6}" />
+    <SolidColorBrush x:Key="ControlBorderBrush" Color="{StaticResource Gray6}" />
+    <SolidColorBrush x:Key="TextBoxMouseOverInnerBorderBrush" Color="{StaticResource BlackColor}" />
+    <SolidColorBrush x:Key="TextBoxFocusBorderBrush" Color="{StaticResource BlackColor}" />
+    <SolidColorBrush x:Key="TextBoxMouseOverBorderBrush" Color="{StaticResource Gray2}" />
+
+    <SolidColorBrush x:Key="ButtonMouseOverBorderBrush" Color="{StaticResource BlackColor}" />
+    <SolidColorBrush x:Key="ButtonMouseOverInnerBorderBrush" Color="{StaticResource BlackColor}" />
+    <SolidColorBrush x:Key="ComboBoxMouseOverBorderBrush" Color="{StaticResource BlackColor}" />
+    <SolidColorBrush x:Key="ComboBoxMouseOverInnerBorderBrush" Color="{StaticResource BlackColor}" />
+
+    <SolidColorBrush x:Key="CheckBoxBorderBrush" Color="{StaticResource Gray3}" />
+    <SolidColorBrush x:Key="CheckBoxMouseOverBrush" Color="{StaticResource Gray1}" />
+
+    <SolidColorBrush x:Key="OuterMapRegionBrush" Color="{StaticResource OuterMapRegion}" />
+    <SolidColorBrush x:Key="InnerMapRegionBrush" Color="{StaticResource InnerMapRegion}" />
+    <SolidColorBrush x:Key="SelectMapRegionBrush" Color="{StaticResource RedColor}" />
+    <SolidColorBrush x:Key="TimeLineColorBrush" Color="{StaticResource TimeLineColor}" />
+    <SolidColorBrush x:Key="TimeLineBackgroundColorBrush" Color="{StaticResource TimeLineBackgroundColor}" />
+    <SolidColorBrush x:Key="ScheduleTimeLineColorBrush" Color="{StaticResource ScheduleTimeLineColor}" />
+    <SolidColorBrush x:Key="AlarmTimeLineColorBrush" Color="{StaticResource AlarmTimeLineColor}" />
+    <SolidColorBrush x:Key="MotionTimeLineColorBrush" Color="{StaticResource MotionTimeLineColor}" />
+    <SolidColorBrush x:Key="PreAlarmTimeLineColorBrush" Color="{StaticResource PreAlarmTimeLineColor}" />
+    <SolidColorBrush x:Key="EraseTimeLineColorBrush" Color="{StaticResource EraseTimeLineColor}" />
+
+
+    <SolidColorBrush x:Key="AccentColorBrush" Color="{StaticResource AccentColor}"/>
+    <SolidColorBrush x:Key="AccentColorBrush2" Color="{StaticResource AccentColor2}"/>
+    <SolidColorBrush x:Key="AccentColorBrush3" Color="{StaticResource AccentColor3}"/>
+    <SolidColorBrush x:Key="AccentColorBrush4" Color="{StaticResource AccentColor4}"/>
+
+
+    <!--EndPoint="0.5,1" StartPoint="0.5,0"-->
+    <!--<LinearGradientBrush x:Key="CameraFocusBrush" StartPoint="0,10" EndPoint="50,10">
+        <GradientStop Color="Transparent"  Offset="0.0"/>
+        <GradientStop Color="{StaticResource CameraFocusColor}" Offset="0.5"/>
+        <GradientStop Color="{StaticResource CameraFocusColor}" Offset="0.5"/>
+        <GradientStop Color="{StaticResource CameraFocusColor}" Offset="1.0"/>
+    </LinearGradientBrush>-->
+
+    <!--<LinearGradientBrush x:Key="CameraFocusBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="{StaticResource CameraFocusLightColor}" Offset="0" />
+        <GradientStop Color="{StaticResource CameraFocusColor}" Offset="1.0" />
+    </LinearGradientBrush>-->
+
+    <!--<SolidColorBrush x:Key="CameraFocusBrush" Color="{StaticResource CameraFocusColor}" />-->
+
+    <RadialGradientBrush x:Key="CameraFocusBrush" GradientOrigin="0.5,1" Center="0.5,1" RadiusX="0.5" RadiusY="0.5">
+        <RadialGradientBrush.GradientStops>
+            <GradientStop Color="{StaticResource CameraFocusColor}" Offset="0" />
+            <GradientStop Color="{StaticResource CameraFocusLightColor}" Offset="1" />
+        </RadialGradientBrush.GradientStops>
+    </RadialGradientBrush>
+
+
+    <SolidColorBrush x:Key="MenuItemDisabledBrush" Color="{StaticResource Gray3}" />
+
+    <SolidColorBrush x:Key="ThumbBrush" Color="{StaticResource Gray5}" />
+
+    <SolidColorBrush x:Key="ComboBoxPopupBrush" Color="{StaticResource Gray4}" />
+    <DropShadowEffect x:Key="DropShadowBrush" Direction="330" Opacity="0.3" ShadowDepth="0" BlurRadius="6"/>
+
+    <SolidColorBrush x:Key="WindowBackgroundBrush" Color="{StaticResource WhiteColor}" />
+    <SolidColorBrush x:Key="SeperatorBrush" Color="#FFC4C4C5"/>
+
+    <SolidColorBrush x:Key="FlatButtonBackgroundBrush" Color="#D5D5D5" options:Freeze="True" />
+    <SolidColorBrush x:Key="FlatButtonForegroundBrush" Color="#222222" options:Freeze="True" />
+    <SolidColorBrush x:Key="FlatButtonPressedBackgroundBrush" Color="#222222" options:Freeze="True" />
+    <SolidColorBrush x:Key="FlatButtonPressedForegroundBrush" Color="White" options:Freeze="True" />
+
+    <!-- CONTROL VALIDATION BRUSHES -->
+    <SolidColorBrush x:Key="ControlsValidationBrush" Color="{StaticResource ControlsValidation}" options:Freeze="True" />
+    <SolidColorBrush x:Key="ValidationBrush1" Color="{StaticResource Validation1}" options:Freeze="True" />
+    <SolidColorBrush x:Key="ValidationBrush2" Color="{StaticResource Validation2}" options:Freeze="True" />
+    <SolidColorBrush x:Key="ValidationBrush3" Color="{StaticResource Validation3}" options:Freeze="True" />
+    <SolidColorBrush x:Key="ValidationBrush4" Color="{StaticResource Validation4}" options:Freeze="True" />
+    <SolidColorBrush x:Key="ValidationBrush5" Color="{StaticResource Validation5}" options:Freeze="True" />
+    <!-- unused -->
+    <SolidColorBrush x:Key="ValidationSummaryColor1" Color="{StaticResource ValidationSummary1}" options:Freeze="True" />
+    <SolidColorBrush x:Key="ValidationSummaryColor2" Color="{StaticResource ValidationSummary2}" options:Freeze="True" />
+    <SolidColorBrush x:Key="ValidationSummaryColor3" Color="{StaticResource ValidationSummary3}" options:Freeze="True" />
+    <SolidColorBrush x:Key="ValidationSummaryColor4" Color="{StaticResource ValidationSummary4}" options:Freeze="True" />
+    <SolidColorBrush x:Key="ValidationSummaryColor5" Color="{StaticResource ValidationSummary5}" options:Freeze="True" />
+    <SolidColorBrush x:Key="ValidationSummaryFillColor1" Color="{StaticResource ValidationSummaryFill1}" options:Freeze="True" />
+    <SolidColorBrush x:Key="ValidationSummaryFillColor2" Color="{StaticResource ValidationSummaryFill2}" options:Freeze="True" />
+    <!-- validation text foreground always white -->
+    <SolidColorBrush x:Key="ValidationTextBrush" Color="White" options:Freeze="True" />
+
+    <!-- WPF default colors -->
+    <SolidColorBrush x:Key="{x:Static SystemColors.WindowBrushKey}" Color="{StaticResource WhiteColor}" />
+    <SolidColorBrush x:Key="{x:Static SystemColors.ControlTextBrushKey}" Color="{StaticResource BlackColor}" />
+
+    <!-- menu default colors -->
+
+    <SolidColorBrush x:Key="MenuBackgroundBrush" Color="{StaticResource TreeBackground}" options:Freeze="True" />
+    <SolidColorBrush x:Key="MenuItemBackgroundBrush" Color="{StaticResource TreeBackground}" options:Freeze="True" />
+
+    <SolidColorBrush x:Key="ContextMenuBackgroundBrush" Color="{StaticResource TreeHeaderBorder2}" />
+    <SolidColorBrush x:Key="ContextHoverMenuBackgroundBrush" Color="{StaticResource TreeHoverBackground}" options:Freeze="True" />
+    <SolidColorBrush x:Key="ContextMenuBorderBrush" Color="{StaticResource TreeHeaderBorder1}" options:Freeze="True" />
+    <SolidColorBrush x:Key="SubMenuBackgroundBrush" Color="{StaticResource TreeHeaderBorder2}" options:Freeze="True" />
+    <SolidColorBrush x:Key="SubMenuBorderBrush" Color="{StaticResource TreeHeaderBorder1}" options:Freeze="True" />
+
+    <SolidColorBrush x:Key="MenuItemSelectionFill" Color="{StaticResource TreeBackground}" options:Freeze="True" />
+    <SolidColorBrush x:Key="MenuItemSelectionStroke" Color="{StaticResource TreeBackground}" options:Freeze="True" />
+
+    <SolidColorBrush x:Key="TopMenuItemPressedFill" Color="#DEDEDE" options:Freeze="True" />
+    <SolidColorBrush x:Key="TopMenuItemPressedStroke" Color="#E0717070" options:Freeze="True" />
+    <SolidColorBrush x:Key="TopMenuItemSelectionStroke" Color="#90717070" options:Freeze="True" />
+
+    <!-- original #FF9A9A9A" -->
+    <SolidColorBrush x:Key="DisabledMenuItemForeground" Color="{StaticResource Gray2}" options:Freeze="True" />
+    <SolidColorBrush x:Key="DisabledMenuItemGlyphPanel" Color="#848589" options:Freeze="True" />
+
+    <SolidColorBrush x:Key="{x:Static SystemColors.MenuTextBrushKey}" Color="{StaticResource BlackColor}" options:Freeze="True" />
+
+    <Color x:Key="MenuShadowColor">#FF000000</Color>
+
+    <Color x:Key="IdealForegroundColor">Black</Color>
+    <Color x:Key="ScrollbarBackgroundColor">#FF222B32</Color>
+
+    <!-- DataGrid brushes -->
+
+    <SolidColorBrush x:Key="MetroDataGrid.DisabledHighlightBrush" Color="{StaticResource Gray7}" options:Freeze="True" />
+    <SolidColorBrush x:Key="MetroDataGrid.HighlightTextBrush" Color="{StaticResource IdealForegroundColor}" options:Freeze="True" />
+    <SolidColorBrush x:Key="MetroDataGrid.InactiveSelectionHighlightTextBrush" Color="{StaticResource IdealForegroundColor}" options:Freeze="True" />
+
+    <!-- TREE VIEW CONTROL SOLID COLOR BRUSH-->
+    <SolidColorBrush x:Key="TreeHeaderCollapseBrush" Color="{StaticResource TreeHeaderCollapse}"></SolidColorBrush>
+    <SolidColorBrush x:Key="TreeHeaderExpandBrush" Color="{StaticResource TreeHeaderExpand}"></SolidColorBrush>
+    <SolidColorBrush x:Key="TreeHeaderBorderInnerBrush" Color="{StaticResource TreeHeaderBorder1}"></SolidColorBrush>
+    <SolidColorBrush x:Key="TreeHeaderBorderOuterBrush" Color="{StaticResource TreeHeaderBorder2}"></SolidColorBrush>
+    <SolidColorBrush x:Key="TreeBackgroundBrush" Color="{StaticResource TreeBackground}"></SolidColorBrush>
+    <SolidColorBrush x:Key="TreeHoverBackgroundBrush" Color="{StaticResource TreeHoverBackground}"></SolidColorBrush>
+    <SolidColorBrush x:Key="TransparentBlackBrush" Color="{StaticResource BlackColor}" Opacity="0.7" ></SolidColorBrush>
+    <SolidColorBrush x:Key="MaroonColorBrush" Color="{StaticResource MaroonColor}" ></SolidColorBrush>
+
+    <SolidColorBrush x:Key="CalendarHeaderColorBrush" Color="{StaticResource CalendarHeaderColor}" ></SolidColorBrush>
+    <SolidColorBrush x:Key="CalendarDayNameColorBrush" Color="{StaticResource CalendarDayNameColor}" ></SolidColorBrush>
+
+    <SolidColorBrush x:Key="CalendarBackColorBrush" Color="{StaticResource CalendarBackColor}" ></SolidColorBrush>
+
+    <SolidColorBrush x:Key="ToolTipBackgroundBrush" Color="{StaticResource ToolTipBackground}" options:Freeze="True" />
+
+    <SolidColorBrush x:Key="ScrollbarBackgroundColorBrush" Color="{StaticResource ScrollbarBackgroundColor}" />
+</ResourceDictionary>

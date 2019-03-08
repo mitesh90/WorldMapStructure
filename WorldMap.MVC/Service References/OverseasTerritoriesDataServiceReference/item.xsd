@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WorldMap.Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WorldMap.Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="OverseasTerritoriesData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CountryId" type="xs:int" />
+      <xs:element minOccurs="0" name="OverseasTerritoriesId" type="xs:int" />
+      <xs:element minOccurs="0" name="OverseasTerritoriesName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="OverseasTerritoriesData" nillable="true" type="tns:OverseasTerritoriesData" />
+  <xs:complexType name="ArrayOfOverseasTerritoriesData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="OverseasTerritoriesData" nillable="true" type="tns:OverseasTerritoriesData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOverseasTerritoriesData" nillable="true" type="tns:ArrayOfOverseasTerritoriesData" />
+</xs:schema>

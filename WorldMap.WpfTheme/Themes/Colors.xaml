@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" mc:Ignorable="d">
+
+
+    <Color x:Key="btnTest">#AABBCC</Color>
+    <Color x:Key="btnRed">Red</Color>
+    <Color x:Key="ButtonColor1" A="00" R="124" G="111" B="44"/>
+
+    <SolidColorBrush x:Key="ReadOnlyTextBrush" Color="{StaticResource btnRed}" />
+    
+</ResourceDictionary>

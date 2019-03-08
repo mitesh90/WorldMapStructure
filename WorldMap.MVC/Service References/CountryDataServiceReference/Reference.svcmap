@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4f0e6a48-98c1-4a8b-b249-ea091a31de3d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8080/CountryData/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="426fc8f1-ba98-4846-97ee-d8225ba4fbe3" SourceId="1" SourceUrl="http://localhost:8080/CountryData/?xsd=xsd0" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="f52f3d9d-0c70-4115-b3a3-f6287012aa43" SourceId="1" SourceUrl="http://localhost:8080/CountryData/?disco" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="3117aee1-2ae1-4703-9641-904583827ebf" SourceId="1" SourceUrl="http://localhost:8080/CountryData/?xsd=xsd1" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="74ec9c50-427b-408e-9b49-7de1aa46b6c8" SourceId="1" SourceUrl="http://localhost:8080/CountryData/?xsd=xsd2" />
+    <MetadataFile FileName="CountryDataService.wsdl" MetadataType="Wsdl" ID="8e32eaa3-29d9-45a2-95ba-acb08218f4eb" SourceId="1" SourceUrl="http://localhost:8080/CountryData/?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

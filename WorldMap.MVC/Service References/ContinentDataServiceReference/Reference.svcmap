@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6667d004-acbf-4548-a3e6-6d11a89e4051" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8080/ContinentData/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="da6686e2-a9ae-4864-aeae-e3bd581f9cb7" SourceId="1" SourceUrl="http://localhost:8080/ContinentData/?xsd=xsd0" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="5e828552-539d-449b-9746-80f77a8a6fe7" SourceId="1" SourceUrl="http://localhost:8080/ContinentData/?xsd=xsd2" />
+    <MetadataFile FileName="ContinentDataService.wsdl" MetadataType="Wsdl" ID="7adcea26-5a1b-4bc8-9ca9-4a589c63b4da" SourceId="1" SourceUrl="http://localhost:8080/ContinentData/?wsdl" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="9db12352-65cb-4704-956e-bb1a5ab84a98" SourceId="1" SourceUrl="http://localhost:8080/ContinentData/?xsd=xsd1" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="ed94ab5b-d2d1-4160-8a76-f5fb0a978051" SourceId="1" SourceUrl="http://localhost:8080/ContinentData/?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

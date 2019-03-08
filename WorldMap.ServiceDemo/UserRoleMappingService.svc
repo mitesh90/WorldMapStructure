@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WorldMap.ServiceDemo.UserRoleMappingService" CodeBehind="UserRoleMappingService.svc.cs" %>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WorldMap.Model" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WorldMap.Model" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="StateData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CountryId" type="xs:int" />
+      <xs:element minOccurs="0" name="IsActive" type="xs:boolean" />
+      <xs:element minOccurs="0" name="StateCapital" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StateId" type="xs:int" />
+      <xs:element minOccurs="0" name="StateName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="cityData" nillable="true" type="tns:ArrayOfCityData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="StateData" nillable="true" type="tns:StateData" />
+  <xs:complexType name="ArrayOfCityData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CityData" nillable="true" type="tns:CityData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCityData" nillable="true" type="tns:ArrayOfCityData" />
+  <xs:complexType name="CityData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CityId" type="xs:int" />
+      <xs:element minOccurs="0" name="CityName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsActive" type="xs:boolean" />
+      <xs:element minOccurs="0" name="StateId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CityData" nillable="true" type="tns:CityData" />
+  <xs:complexType name="ArrayOfStateData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="StateData" nillable="true" type="tns:StateData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfStateData" nillable="true" type="tns:ArrayOfStateData" />
+</xs:schema>
