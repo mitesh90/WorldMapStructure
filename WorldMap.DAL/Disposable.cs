@@ -20,6 +20,7 @@ namespace WorldMap.DAL
             Dispose(true);
             GC.SuppressFinalize(this);
         }
+
         private void Dispose(bool disposing)
         {
             if (!isDisposed && disposing)
