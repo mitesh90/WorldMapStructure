@@ -1,0 +1,12 @@
+SELECT xwalk.PartnerName,REPLACE(f.items,'''','') AS PPGCode FROM lact_xwalk_partnerprovider xwalk  WITH (NOLOCK)
+
+				CROSS APPLY dbo.tzcf_unit_split(ISNULL(xwalk.PPGCodeInput,' '),',') f ORDER BY xwalk.PPGCode
+
+---------------------------------------------------------------------------------------------------------------------
+
+SELECT 
+       MAX (CASE WHEN t1.ObjectName = 'a' AND t1.ValidationToRun = 'b' THEN t1.ValidationFlag ELSE NULL END) AS X,
+       MAX (CASE WHEN t1.ObjectName = 'a' AND t1.ValidationToRun = 'c' THEN t1.ValidationFlag ELSE NULL END) AS Y,
+FROM Configuration t1
+INNER JOIN Configuration t2 on t1.ID = t2.ID
+
