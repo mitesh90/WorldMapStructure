@@ -2,9 +2,11 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace WorldMap.Common
 {
@@ -51,6 +53,19 @@ namespace WorldMap.Common
 
                 return dt;
             }
+        }
+        
+        public void ExportExcel(DataSet ds, string destination)
+        {
+            var workbook = new ClosedXML.Excel.XLWorkbook();
+            foreach (DataTable dt in ds.Tables)
+            {
+                var worksheet = workbook.Worksheets.Add(dt.TableName);
+                worksheet.Cell(1, 1).InsertTable(dt);
+                worksheet.Columns().AdjustToContents();
+            }
+            workbook.SaveAs(destination);
+            workbook.Dispose();
         }
     }
 }
