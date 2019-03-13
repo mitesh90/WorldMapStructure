@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldMap.WpfCommon", "World
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldMap.WpfTheme", "WorldMap.WpfTheme\WorldMap.WpfTheme.csproj", "{578EC10B-6546-4DE1-ADA4-74A7F42DBA18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldMap.Databases", "WorldMap.Databases\WorldMap.Databases.csproj", "{7B7D7ABA-AFD2-4D0C-99CB-9D60DC53F9CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldMap.Documents", "WorldMap.Documents\WorldMap.Documents.csproj", "{562B194E-E605-4BE7-8838-4C562982A839}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{578EC10B-6546-4DE1-ADA4-74A7F42DBA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{578EC10B-6546-4DE1-ADA4-74A7F42DBA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{578EC10B-6546-4DE1-ADA4-74A7F42DBA18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B7D7ABA-AFD2-4D0C-99CB-9D60DC53F9CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B7D7ABA-AFD2-4D0C-99CB-9D60DC53F9CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B7D7ABA-AFD2-4D0C-99CB-9D60DC53F9CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B7D7ABA-AFD2-4D0C-99CB-9D60DC53F9CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{562B194E-E605-4BE7-8838-4C562982A839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562B194E-E605-4BE7-8838-4C562982A839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562B194E-E605-4BE7-8838-4C562982A839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562B194E-E605-4BE7-8838-4C562982A839}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
