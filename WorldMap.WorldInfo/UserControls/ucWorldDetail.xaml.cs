@@ -13,22 +13,18 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WorldMap.WorldInfo.ViewModels;
-using Microsoft.Practices.Prism.Modularity;
-using Microsoft.Practices.Prism.UnityExtensions;
-using Microsoft.Practices.Unity;
 
-namespace WorldMap.WorldInfo.Views
+namespace WorldMap.WorldInfo
 {
     /// <summary>
-    /// Interaction logic for WorldDetail.xaml
+    /// Interaction logic for ucWorldDetail.xaml
     /// </summary>
-    public partial class WorldDetail : UserControl
+    public partial class ucWorldDetail : UserControl
     {
-        public WorldDetail(WorldViewModel worldViewModel)
+        public ucWorldDetail(WorldViewModel worldViewModel)
         {
             InitializeComponent();
             DataContext = worldViewModel;
         }
-        
     }
 }

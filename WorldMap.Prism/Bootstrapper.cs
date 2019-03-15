@@ -34,6 +34,7 @@ namespace WorldMap.Prism
             //moduleCatalog.AddModule(typeof(EmployeeModule));
             moduleCatalog.AddModule(typeof(NavigationModule));
             moduleCatalog.AddModule(typeof(WorldModule), InitializationMode.OnDemand);
+            moduleCatalog.AddModule(typeof(Geometry2DTo3DModule), InitializationMode.OnDemand);
             //moduleCatalog.AddModule(typeof(EmployeeModule), InitializationMode.OnDemand);
             //moduleCatalog.AddModule(typeof(HardwareModule), InitializationMode.OnDemand);
             //moduleCatalog.AddModule(typeof(RequestModule), InitializationMode.OnDemand);

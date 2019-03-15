@@ -1,0 +1,28 @@
+﻿<UserControl x:Class="WorldMap.WorldInfo.ucGeometry2DTo3D"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WorldMap.WorldInfo"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="750">
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.1*"></RowDefinition>
+            <RowDefinition Height="0.9*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button  x:Name="btnConvert" Content="Convert" Width="150" Height="30" Click="btnConvert_Click" Grid.Column="0"></Button>
+            <Button x:Name="btnRotate" Content="Rotate" Width="150" Height="30" Click="btnRotate_Click" Grid.Column="1"></Button>
+            <Label x:Name="lblAngle" Width="150" Height="50" Background="Red" Grid.Column="2"></Label>
+        </Grid>
+        <Grid Grid.Row="1" x:Name="gridMain"></Grid>
+    </Grid>
+
+</UserControl>
