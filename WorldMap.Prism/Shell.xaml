@@ -26,7 +26,7 @@
         <Label Grid.Row="0"  HorizontalAlignment="Center" VerticalAlignment="Center" Content="IT Help Desk Application"  Foreground="Brown"  FontSize="35" FontFamily="Corbel"/>
         <ItemsControl Grid.Row="1" prism:RegionManager.RegionName="NavigationRegion" />
         <Border Grid.Row="2" >
-            <ItemsControl prism:RegionManager.RegionName="ContentRegion" />
+            <ContentControl prism:RegionManager.RegionName="ContentRegion" />
         </Border>
         <Separator Grid.Row="2" Margin="0,0,0,0" VerticalAlignment="Bottom" Height="10" BorderBrush="#193441"/>
         <Border Grid.Row="3"  BorderBrush="#193441"   >

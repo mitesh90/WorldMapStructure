@@ -25,8 +25,6 @@ namespace WorldMap.WorldNavigation.ViewModels
             loadCountryCommand = new DelegateCommand(loadCountryModule, canLoadCountryModule);
             loadHardwareCommand = new DelegateCommand(loadHardwareModule, canLoadHardwareModule);
             requestCommand = new DelegateCommand(loadStatusModule, canLoadStatusModule);
-
-            requestRegion = RegionManager.Regions["ContentRegion"];
         }
         #endregion
 
@@ -34,7 +32,6 @@ namespace WorldMap.WorldNavigation.ViewModels
         public IRegionManager RegionManager { get; set; }
         public IUnityContainer UnityContainer123 { get; set; }
         public IModuleManager ModuleManager { get; set; }
-        public IRegion requestRegion;
         #endregion
 
         #region Command
@@ -82,16 +79,12 @@ namespace WorldMap.WorldNavigation.ViewModels
         {
             // LoadModule method is responsible to load and initialize the module
             // It loads only if module is not initialize already.
-            //ModuleManager.LoadModule("WorldModule");
-            //var requestInfoRegion = RegionManager.Regions["ContentRegion"];
-            //var newView = requestInfoRegion.GetView("ucWorldDetail");
-            // As RequestInfoRegion uses ContentControlRegionAdapter so at a time only one view will be activated.
-            //requestInfoRegion.Activate(newView);
-
-            //requestInfoRegion.Deactivate(newView);
-            
             ModuleManager.LoadModule("WorldModule");
-            requestRegion.Activate(requestRegion.GetView("ucWorldDetail"));
+            var requestInfoRegion = RegionManager.Regions["ContentRegion"];
+            var newView = requestInfoRegion.GetView("ucWorldDetail");
+            // As RequestInfoRegion uses ContentControlRegionAdapter so at a time only one view will be activated.
+            requestInfoRegion.Activate(newView);
+            
         }
         private void loadStatusModule()
         {
@@ -102,13 +95,11 @@ namespace WorldMap.WorldNavigation.ViewModels
         }
         private void loadHardwareModule()
         {
-            //ModuleManager.LoadModule("Geometry2DTo3DModule");
-            //var requestInfoRegion = RegionManager.Regions["ContentRegion"];
-            //var newView = requestInfoRegion.GetView("ucGeometry2DTo3D");
-            //requestInfoRegion.Activate(newView);
-
             ModuleManager.LoadModule("Geometry2DTo3DModule");
-            requestRegion.Activate(requestRegion.GetView("ucGeometry2DTo3D"));
+            var requestInfoRegion = RegionManager.Regions["ContentRegion"];
+            var newView = requestInfoRegion.GetView("ucGeometry2DTo3D");
+            requestInfoRegion.Activate(newView);
+            
         }
 
         #endregion

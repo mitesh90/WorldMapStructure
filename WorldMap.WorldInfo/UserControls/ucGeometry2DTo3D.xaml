@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WorldMap.WorldInfo"
              mc:Ignorable="d" 
-             d:DesignHeight="500" d:DesignWidth="750">
+             d:DesignHeight="900" d:DesignWidth="900">
     <Grid >
         <Grid.RowDefinitions>
             <RowDefinition Height="0.1*"></RowDefinition>
@@ -23,6 +23,7 @@
             <Label x:Name="lblAngle" Width="150" Height="50" Background="Red" Grid.Column="2"></Label>
         </Grid>
         <Grid Grid.Row="1" x:Name="gridMain"></Grid>
+
     </Grid>
 
 </UserControl>

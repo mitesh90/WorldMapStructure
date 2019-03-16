@@ -25,5 +25,6 @@
         <abc:MenuButton Grid.Row="0" Grid.Column="1" PathStyle="{StaticResource path_save_disk}" Description="test" Style="{StaticResource MediumMenuButton}" ></abc:MenuButton>
         <Button Style="{StaticResource IconButton}" Grid.Row="1" Width="150" Height="50" abc:ControlsHelper.IconGeometry="{StaticResource icon_save_disk}" Foreground="Aqua"></Button>
         <ToggleButton Style="{StaticResource SimpleToggleButton}" Content="Test" Grid.Row="1" Grid.Column="1" Width="150" Height="50" ></ToggleButton>
+
     </Grid>
 </UserControl>

@@ -68,7 +68,6 @@ namespace WorldMap.WorldInfo
 
             CreateSquare();
             k = 0.0f;
-            //CreateALine();
 
             worker.DoWork += worker_DoWork;
             worker.RunWorkerCompleted += worker_RunWorkerCompleted;
