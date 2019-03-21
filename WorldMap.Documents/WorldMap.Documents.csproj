@@ -44,6 +44,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="70-483.pdf" />
+    <None Include="70-761.pdf" />
     <None Include="English_Text.docx" />
     <None Include="Interview_Question.docx" />
     <None Include="Interview_Question.pdf" />
